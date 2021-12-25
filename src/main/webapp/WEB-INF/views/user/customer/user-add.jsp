@@ -162,7 +162,7 @@
 				{{/if}}
 			</td>
 			<td>\${tel}</td>
-			<td><a href="/user/del/\${id}" class="user-del">Del</a></td>
+			<td><a href="<%=request.getContextPath()%>/user/del/\${id}" class="user-del">Del</a></td>
 		</tr>
 	</script>
 	<!-- 地址模板 -->
