@@ -13,7 +13,7 @@ var AddUser = {
 	 * query users
 	 */
 	queryUser: function() {
-		$.getJSON("/springdemo/user/list", function(json){
+		$.getJSON($ctx.concat("/user/list"), function(json){
 		    $("#user-tmpl").tmpl(json).appendTo("#query-user");
 		});
 		

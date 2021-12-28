@@ -12,7 +12,9 @@
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/home.css">
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/customer/user.css">
-
+<script type="text/javascript">
+var $ctx = "<%=request.getContextPath()%>"
+</script>
 </head>
 <body>
 	<!-- header -->
